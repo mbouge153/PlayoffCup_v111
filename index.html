@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey Playoff App</title>
+    <title>Hockey Support Information</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f8f9fa;
             margin: 0;
             padding: 0;
         }
@@ -17,56 +17,72 @@
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #007bff;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77d42a 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        .bracket {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px 0;
-        }
-        .team {
-            background: #fff;
-            padding: 10px;
-            margin: 5px;
-            border: 1px solid #ddd;
+            padding: 20px 0;
             text-align: center;
         }
-        .scoreboard {
+        header h1 {
+            margin: 0;
+        }
+        section {
             background: #fff;
             padding: 20px;
             margin: 20px 0;
             border: 1px solid #ddd;
+        }
+        section h2 {
+            color: #007bff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Hockey Playoff App</h1>
+            <h1>Hockey Support Information</h1>
         </div>
     </header>
     <div class="container">
-        <section class="bracket">
-            <div class="team">Team 1</div>
-            <div class="team">Team 2</div>
-            <div class="team">Team 3</div>
-            <div class="team">Team 4</div>
+        <section>
+            <h2>General Information</h2>
+            <p>Hockey is a fast-paced sport played on ice, where two teams compete to score goals by hitting a puck into the opponent's net using sticks.</p>
         </section>
-        <section class="scoreboard">
-            <h2>Scoreboard</h2>
-            <p>Team 1: 3</p>
-            <p>Team 2: 2</p>
+        <section>
+            <h2>Rules of the Game</h2>
+            <ul>
+                <li>Each team has six players on the ice: three forwards, two defensemen, and one goaltender.</li>
+                <li>The game is played in three periods of 20 minutes each.</li>
+                <li>Players can be penalized for infractions such as tripping, high-sticking, and fighting.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Equipment</h2>
+            <p>Essential hockey equipment includes:</p>
+            <ul>
+                <li>Skates</li>
+                <li>Stick</li>
+                <li>Helmet</li>
+                <li>Protective gear (shoulder pads, elbow pads, shin guards, gloves)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Support</h2>
+            <p>If you have any questions or need further assistance, please contact us at:</p>
+            <p>Email: support@hockeyapp.com</p>
+            <p>Phone: 1-800-HOCKEY</p>
         </section>
     </div>
+    <footer>
+        <p>© 2024 Hockey Support. All rights reserved.</p>
+    </footer>
 </body>
 </html>
